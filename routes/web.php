@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Livewire\RolesUser\RolesUser;
+use App\Http\Livewire\Dashboard\Dashboard;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,7 +19,7 @@ Route::get('/', [MainController::class, 'index'])->name('main.login');
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home',Dashboard::class)->name('home');
 Route::get('/roles_user',RolesUser::class)->name('userroles.index');
-Route::get('/all_employees', [App\Http\Controllers\EmployeesController::class, 'index'])->name('pages.employees.all');
+
 

@@ -10,7 +10,7 @@
                             <a href="#" class="noti-dot"><i class="la la-user"></i> <span> Employés</span> <span
                                     class="menu-arrow"></span></a>
                             <ul style="display: none;">
-                                <li><a class="" href="{{ route('pages.employees.all') }}">Tous les employés</a></li>
+                                <li><a class="" href="">Tous les employés</a></li>
                                 <li><a class="" href="holidays">Vacances</a></li>
                                 <li><a class="" href="holidays">Sorties</a></li>
                                 <li><a class="" href="attendance_employee">Présences</a></li>
