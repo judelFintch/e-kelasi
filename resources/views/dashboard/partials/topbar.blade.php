@@ -13,7 +13,7 @@
             </a>
 
             <div class="page-title-box">
-                <h3>PayRollSoft fintch</h3>
+                <h3>{{config(app.T_NAME_QUALIFIED)}}</h3>
             </div>
 
             <a id="mobile_btn" class="mobile_btn" href="#sidebar"><i class="fa fa-bars"></i></a>
